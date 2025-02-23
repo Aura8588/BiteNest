@@ -1,0 +1,177 @@
+/* General Styles */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+/* Signup Box */
+.signup-box {
+  display: flex;
+  width: 85vw; /* Matches login page */
+  max-width: 1500px;
+  height: 80vh;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Section */
+.signup-image {
+  flex: 1;
+}
+
+.signup-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Form Section */
+.signup-form {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signup-form h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+/* Input Fields */
+.input-group {
+  display: flex;
+  align-items: center;
+  background: #f2f2f2;
+  padding: 14px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+
+.input-icon {
+  margin-right: 12px;
+  color: #888;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  width: 100%;
+  background: transparent;
+  font-size: 16px;
+}
+
+/* Checkbox */
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+
+.checkbox-group input {
+  margin-right: 6px;
+}
+
+/* Signup Button */
+.signup-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  background: #e74c3c;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 18px;
+}
+
+.signup-btn:hover {
+  background: #c0392b;
+}
+
+/* Social Signup */
+.or-text {
+  text-align: center;
+  margin-bottom: 14px;
+  font-size: 15px;
+}
+
+.social-signup {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.social-signup button {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-btn {
+  background: #db4437;
+  color: white;
+  margin-right: 10px;
+}
+
+.facebook-btn {
+  background: #3b5998;
+  color: white;
+}
+
+.google-btn:hover {
+  background: #b73226;
+}
+
+.facebook-btn:hover {
+  background: #2a4373;
+}
+
+/* Login Link */
+.login-text {
+  text-align: center;
+  font-size: 15px;
+}
+
+.login-text a {
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .signup-box {
+    flex-direction: column;
+    width: 85vw;
+    height: auto;
+  }
+
+  .signup-image {
+    display: none; /* Hides the image on smaller screens */
+  }
+
+  .signup-form {
+    padding: 30px;
+  }
+}

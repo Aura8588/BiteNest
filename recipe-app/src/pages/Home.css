@@ -1,0 +1,24 @@
+/* Home.css */
+.home-container {
+    text-align: center;
+    padding: 50px;
+  }
+  .explore-btn {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .explore-btn:hover {
+    background-color: #e64a19;
+  }
+  .recipe-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
